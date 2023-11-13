@@ -70,6 +70,9 @@ select {
 .h1 {
   background-color: #f3aa4e;
 }
+.taskh1 {
+  color: #f3aa4e;
+}
 .btn {
   color: #fff;
   background-color: #f3aa4e;

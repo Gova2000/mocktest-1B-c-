@@ -82,7 +82,7 @@ class App extends Component {
     return (
       <div className="main">
         <form className="taskbg" onSubmit={this.list1}>
-          <h1>Create a task!</h1>
+          <h1 className="taskh1">Create a task!</h1>
           <div className="margin">
             <label htmlFor="task">Task</label>
             <div className="input">

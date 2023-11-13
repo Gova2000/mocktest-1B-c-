@@ -1,13 +1,15 @@
-import {Div, Button} from './cardpg'
+import './card.css'
 
 const Card = props => {
   const {each, tagsList} = props
 
   return (
-    <Div as="li">
+    <li className="carddiv">
       <p>{each.text}</p>
-      <Button type="button">{each.btntext}</Button>
-    </Div>
+      <button type="button" className="cardbtn">
+        {each.btntext}
+      </button>
+    </li>
   )
 }
 
