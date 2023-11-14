@@ -1,7 +1,7 @@
 import './card.css'
 
 const Card = props => {
-  const {each, tagsList} = props
+  const {each, } = props
 
   return (
     <li className="carddiv">
