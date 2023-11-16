@@ -37,7 +37,7 @@ const tagsList = [
 class App extends Component {
   state = {
     input: '',
-    select: tagsList[0].displayText,
+    select: tagsList[0].optionId,
     toggle: false,
     list: [],
     list1: [],
@@ -99,7 +99,7 @@ class App extends Component {
             <div className="input">
               <select id="select" value={select} onChange={this.select}>
                 {tagsList.map(each => (
-                  <option key={each.optionId} value={each.displayText}>
+                  <option key={each.optionId} value={each.optionId}>
                     {each.displayText}
                   </option>
                 ))}
